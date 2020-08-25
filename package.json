@@ -11,7 +11,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
+    "deploy": "gatsby build && cp CNAME public && gh-pages -d public",
+    "travisdeploy": "gatsby build && cp CNAME public && gh-pages -d public -r https://$GH_TOKEN@github.com/thomasgeissl/klanglichtstrom-website.git"
   },
   "dependencies": {
     "gatsby": "^2.24.47",
@@ -19,6 +21,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "2.0.5"
   },
   "repository": {
