@@ -4,6 +4,8 @@ import What from "../components/What"
 import When from "../components/When"
 import Who from "../components/Who"
 
+import "../styles/index.scss"
+
 export default function Home() {
   return (
     <div>
