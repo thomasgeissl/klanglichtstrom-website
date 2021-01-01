@@ -1,15 +1,18 @@
 import React from "react"
+import Section from "./Section"
 
 export default () => {
   return (
-    <section>
+    <Section>
       {/* <h2>What</h2> */}
       <p>
-        “Klang-/Licht STROM” is a collaborative performance project of Ben
-        Bengler (music, live electronics) and Thomas Geissl (light,
-        programming). It’s driven by our shared vision for creating performances
-        where the audience is in the centre of things, with sound and light
-        unfolding around them.
+        “Klang-/Licht STROM” is a collaborative performance project of{" "}
+        <a href="http://www.benbengler.com/" target="_blank" rel="noreferrer">
+          Ben Bengler
+        </a>{" "}
+        (music, live electronics) and Thomas Geissl (light, programming). It’s
+        driven by our shared vision for creating performances where the audience
+        is in the centre of things, with sound and light unfolding around them.
       </p>
       <p>
         Largely free from strictly timed sequencing, I create and evolve the
@@ -23,6 +26,6 @@ export default () => {
         In this way, we try to conjure up an interconnected and fluid
         choreography of sound and light unfolding around the audience.
       </p>
-    </section>
+    </Section>
   )
 }

@@ -2,6 +2,17 @@
     font-family: bahnschrift;
     src: url(../assets/fonts/BAHNSCHRIFT.ttf);
   }
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Light.ttf);
+  }
   html {
-    font-family: bahnschrift;
+    font-family: Quicksand;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    a {
+      // color: rgb(0, 173, 239);
+      color: rgb(245, 211, 126);
+    }
   }
