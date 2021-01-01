@@ -5,6 +5,11 @@ const Container = styled.div`
   margin-top: 64px;
   margin-bottom: 98px;
 `
-export default ({ children }) => {
-  return <Container>{children}</Container>
+export default ({ title, children }) => {
+  return (
+    <Container id={title}>
+      {title && <h2>{title}</h2>}
+      {children}
+    </Container>
+  )
 }

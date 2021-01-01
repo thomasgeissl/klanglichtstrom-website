@@ -6,8 +6,7 @@ import Thomas from "./Thomas"
 
 export default () => {
   return (
-    <Section>
-      <h2>Artists</h2>
+    <Section title={"Artists"}>
       Klang-/Licht STROM is a collaboration between{" "}
       <a href="http://www.benbengler.com/" target="_blank" rel="noreferrer">
         Ben Bengler

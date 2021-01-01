@@ -8,8 +8,7 @@ const List = styled.ul`
 
 export default () => {
   return (
-    <Section>
-      <h2>Dates</h2>
+    <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
         <li>
