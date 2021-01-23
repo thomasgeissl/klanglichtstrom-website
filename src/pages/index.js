@@ -7,6 +7,7 @@ import What from "../components/What"
 import When from "../components/When"
 import Who from "../components/Who"
 import Contact from "../components/Contact"
+import Footer from "../components/Footer"
 
 import "../styles/index.scss"
 
@@ -15,7 +16,7 @@ const Container = styled.div`
   margin: auto;
 `
 const Title = styled.h1`
-  text-align: right;
+  /* text-align: right; */
 `
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <When></When>
       <Who></Who>
       <Contact></Contact>
+      <Footer></Footer>
     </Container>
   )
 }
