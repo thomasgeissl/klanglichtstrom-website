@@ -16,6 +16,7 @@ const Container = styled.div`
   margin: auto;
 `
 const Title = styled.h1`
+  font-size: 64px;
   /* text-align: right; */
 `
 
