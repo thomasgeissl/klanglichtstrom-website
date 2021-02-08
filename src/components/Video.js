@@ -26,6 +26,7 @@ export default () => {
           url={"https://vimeo.com/385237672"}
           controls={true}
           playing={true}
+          autoPlay={true}
           loop={true}
           volume={0}
           muted={true}
