@@ -7,6 +7,9 @@ import Thomas from "./Thomas"
 
 const Image = styled.img`
   width: 60%;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
   display: block;
   margin: auto;
   margin-top: 128px;
