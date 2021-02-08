@@ -26,7 +26,9 @@ export default () => {
           url={"https://vimeo.com/385237672"}
           controls={true}
           playing={true}
+          loop={true}
           volume={0}
+          muted={true}
           width="100%"
           height="auto"
         ></ReactPlayer>
