@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import styled from "styled-components"
 import Section from "./Section"
+import Unmute from "../components/Unmute"
 
 const Wrapper = styled.div`
   width: auto; // Reset width
@@ -17,9 +18,18 @@ const Wrapper = styled.div`
 `
 
 export default () => {
+  const [muted, setMuted] = useState(true)
+  const [volume, setVolume] = useState(0)
   return (
     <Section>
       <Wrapper>
+        <Unmute
+          muted={muted}
+          clickHandler={() => {
+            setVolume(1)
+            setMuted(false)
+          }}
+        ></Unmute>
         <ReactPlayer
           className="player"
           // url={"https://www.youtube.com/watch?v=R1oVrMQN9xs"}
@@ -28,8 +38,8 @@ export default () => {
           playing={true}
           autoPlay={true}
           loop={true}
-          volume={0}
-          muted={true}
+          volume={volume}
+          muted={muted}
           width="100%"
           height="auto"
         ></ReactPlayer>
