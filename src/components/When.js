@@ -12,7 +12,7 @@ export default () => {
       <h3>Upcoming</h3>
       <List>
         <li>
-          March 25, 2021:{" "}
+          October 28-31, 2021:{" "}
           <a href="https://www.lab30.de/" target="_blank" rel="noreferrer">
             Lab30
           </a>
