@@ -42,6 +42,7 @@ export default () => {
           muted={muted}
           width="100%"
           height="auto"
+          playsinline={true}
         ></ReactPlayer>
         {/* <iframe
           src="https://player.vimeo.com/video/385237672"
