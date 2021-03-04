@@ -17,6 +17,9 @@ const Container = styled.div`
 `
 const Title = styled.h1`
   font-size: 64px;
+  @media only screen and (max-width: 768px) {
+    font-size: 48px;
+  }
   /* text-align: right; */
 `
 
