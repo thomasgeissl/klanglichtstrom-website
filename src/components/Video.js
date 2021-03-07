@@ -32,7 +32,7 @@ export default () => {
         ></Unmute>
         <ReactPlayer
           className="player"
-          url={"https://www.youtube.com/watch?v=R1oVrMQN9xs"}
+          url={"https://www.youtube.com/watch?v=R1oVrMQN9xsstart=1m00s'"}
           // url={"https://vimeo.com/385237672"}
           controls={false}
           playing={true}
