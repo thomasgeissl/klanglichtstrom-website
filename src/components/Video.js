@@ -19,17 +19,20 @@ const Wrapper = styled.div`
 
 export default () => {
   const [muted, setMuted] = useState(true)
+  const [ready, setReady] = useState(false)
   const [volume, setVolume] = useState(0)
   return (
     <Section>
       <Wrapper>
-        <Unmute
-          muted={muted}
-          clickHandler={() => {
-            setVolume(1)
-            setMuted(false)
-          }}
-        ></Unmute>
+        {ready && (
+          <Unmute
+            muted={muted}
+            clickHandler={() => {
+              setVolume(1)
+              setMuted(false)
+            }}
+          ></Unmute>
+        )}
         <ReactPlayer
           className="player"
           url={"https://www.youtube.com/watch?v=R1oVrMQN9xs#t=1m00s"}
@@ -43,6 +46,9 @@ export default () => {
           width="100%"
           height="auto"
           playsinline={true}
+          onStart={() => {
+            setReady(true)
+          }}
         ></ReactPlayer>
         {/* <iframe
           src="https://player.vimeo.com/video/385237672"
