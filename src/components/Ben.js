@@ -10,7 +10,7 @@ export default () => {
       now. He has played in Germany, UK, Sweden and Austria. His interactive
       sound installations have been exhibited internationally, including Ars
       Electronica, Linz, Victoria and Albert Museum (V&A), London, Sónar,
-      Barcelona, or Yang Gallery, Beijing.
+      Barcelona, OCT, Shenzhen or Yang Gallery, Beijing.
     </Section>
   )
 }
