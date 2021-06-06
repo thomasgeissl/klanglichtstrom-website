@@ -18,6 +18,17 @@ export default () => {
           </a>
           , Augsburg, Germany
         </li>
+        <li>
+          June 18/19, 2021:{" "}
+          <a
+            href="https://www.instandsetzung-vs.de/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instandsetzung#2
+          </a>
+          , Villingen-Schwenningen, Germany
+        </li>
       </List>
       <h3>Past</h3>
       <List>
