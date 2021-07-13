@@ -12,12 +12,15 @@ export default () => {
       <h3>Upcoming</h3>
       <List>
         <li>
-          October 28-31, 2021:{" "}
+          October 23, 2021:{" "}
           <a href="https://www.lab30.de/" target="_blank" rel="noreferrer">
             Lab30
           </a>
           , Augsburg, Germany
         </li>
+      </List>
+      <h3>Past</h3>
+      <List>
         <li>
           June 18/19, 2021:{" "}
           <a
@@ -29,9 +32,6 @@ export default () => {
           </a>
           , Villingen-Schwenningen, Germany
         </li>
-      </List>
-      <h3>Past</h3>
-      <List>
         <li>
           October 27, 2019:{" "}
           <a
