@@ -42,6 +42,5 @@ module.exports = {
         icon: `src/assets/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sass`,
   ],
 }
