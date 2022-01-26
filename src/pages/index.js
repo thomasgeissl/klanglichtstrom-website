@@ -9,7 +9,7 @@ import Who from "../components/Who"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 
-import "../styles/index.scss"
+import "../styles/index.css"
 
 const Container = styled.div`
   max-width: 1024px;

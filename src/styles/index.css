@@ -12,15 +12,13 @@
     color: white;
     font-size: 18px;
     text-align: justify;
-    a {
-      // color: rgb(0, 173, 239);
-      color: rgb(245, 211, 126);
-    }
-    h1{
-      font-size: 72px;
-    }
-    h2{
-      font-size: 64px;
-      // text-align: center;
-    }
+  }
+  a {
+    color: rgb(245, 211, 126);
+  }
+  h1{
+    font-size: 72px;
+  }
+  h2{
+    font-size: 64px;
   }
