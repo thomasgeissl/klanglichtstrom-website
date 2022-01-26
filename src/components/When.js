@@ -11,7 +11,7 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
-        <li>...</li>
+        <li>TBA</li>
       </List>
       <h3>Past</h3>
       <List>
