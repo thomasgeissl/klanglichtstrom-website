@@ -11,7 +11,17 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
-        <li>TBA</li>
+        <li>
+          May 6/7, 2022:{" "}
+          <a
+            href="https://www.nuernberg.de/internet/dieblauenacht/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blaue Nacht
+          </a>
+          , Nuernberg, Germany
+        </li>
       </List>
       <h3>Past</h3>
       <List>
