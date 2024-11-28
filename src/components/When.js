@@ -11,6 +11,10 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
+        <li>tba ...</li>
+      </List>
+      <h3>Past</h3>
+      <List>
         <li>
           May 6/7, 2022:{" "}
           <a
@@ -22,9 +26,6 @@ export default () => {
           </a>
           , Nuernberg, Germany
         </li>
-      </List>
-      <h3>Past</h3>
-      <List>
         <li>
           October 23, 2021:{" "}
           <a href="https://www.lab30.de/" target="_blank" rel="noreferrer">
