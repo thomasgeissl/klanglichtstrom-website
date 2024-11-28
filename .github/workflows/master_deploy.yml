@@ -9,7 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout the repository
       - uses: actions/checkout@v1
+
+      # Step 2: Set up a stable Node.js version
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Use Node.js 16, which is stable and compatible with Gatsby
+
+      # Step 3: Install dependencies
+      - run: npm install
+
+      # Step 4: Build and deploy with Gatsby
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
