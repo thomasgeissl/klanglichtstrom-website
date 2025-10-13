@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useRef } from "react"
 import ReactPlayer from "react-player"
 import styled from "styled-components"
 import Section from "./Section"
@@ -21,6 +21,8 @@ export default () => {
   const [muted, setMuted] = useState(true)
   const [ready, setReady] = useState(false)
   const [volume, setVolume] = useState(0)
+  const playerRef = useRef(null)
+
   return (
     <Section>
       <Wrapper>
@@ -34,9 +36,9 @@ export default () => {
           ></Unmute>
         )}
         <ReactPlayer
+          ref={playerRef}
           className="player"
-          url={"https://www.youtube.com/watch?v=R1oVrMQN9xs#t=1m00s"}
-          // url={"https://vimeo.com/385237672"}
+          src={"https://www.youtube.com/watch?v=R1oVrMQN9xs"}
           controls={false}
           playing={true}
           autoPlay={true}
@@ -49,22 +51,20 @@ export default () => {
           onStart={() => {
             setReady(true)
           }}
-        ></ReactPlayer>
-        {/* <iframe
-          src="https://player.vimeo.com/video/385237672"
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
+          config={{
+            youtube: {
+              start: 60,
+              autoplay: 1,
+              mute: 1,
+              loop: 1,
+              modestbranding: 1,
+              rel: 0,
+              showinfo: 0,
+              iv_load_policy: 3,
+            },
           }}
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-        ></iframe> */}
+        ></ReactPlayer>
       </Wrapper>
-      {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
     </Section>
   )
 }
