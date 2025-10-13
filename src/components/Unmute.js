@@ -1,5 +1,5 @@
 import React from "react"
-import VolumeOffIcon from "@material-ui/icons/VolumeOff"
+import VolumeOffIcon from "@mui/icons-material/VolumeOff"
 import styled from "styled-components"
 const Container = styled.div`
   position: absolute;

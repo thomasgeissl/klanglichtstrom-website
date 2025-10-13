@@ -1,5 +1,5 @@
 import React from "react"
-import Grid from "@material-ui/core/Grid"
+import Grid from "@mui/material/Grid"
 import styled from "styled-components"
 import Section from "./Section"
 import Ben from "./Ben"
@@ -36,10 +36,10 @@ export default () => {
         .
       </p>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={6}>
+        <Grid size={{xs:12, sm:6}}>
           <Ben></Ben>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid size={{xs:12, sm:6}}>
           <Thomas></Thomas>
         </Grid>
       </Grid>

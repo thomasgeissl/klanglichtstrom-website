@@ -11,7 +11,13 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
-        <li>tba ...</li>
+        <li>
+          Feb 14, 2025:{" "}
+          <a href="https://www.lot.wien/" target="_blank" rel="noreferrer">
+            Lot
+          </a>
+          , Vienna, Austria
+        </li>
       </List>
       <h3>Past</h3>
       <List>
