@@ -11,7 +11,11 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
-         <li>
+    <li>tba</li>
+      </List>
+      <h3>Past</h3>
+      <List>
+      <li>
           Feb 13, 2025:{" "}
           <a href="https://www.instagram.com/tresor_linz/" target="_blank" rel="noreferrer">
             Tresor
@@ -25,9 +29,6 @@ export default () => {
           </a>
           , Vienna, Austria
         </li>
-      </List>
-      <h3>Past</h3>
-      <List>
         <li>
           May 6/7, 2022:{" "}
           <a
