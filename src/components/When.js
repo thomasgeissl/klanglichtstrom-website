@@ -11,19 +11,25 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
-    <li>tba</li>
+    <li>
+              April 30, 2026:{" "}
+        <a href="http://mucca.org/" target="_blank" rel="noreferrer">
+            Halle, Mucca
+          </a>
+          , Munich, Germany
+        </li>
       </List>
       <h3>Past</h3>
       <List>
       <li>
-          Feb 13, 2025:{" "}
+          Feb 13, 2026:{" "}
           <a href="https://www.instagram.com/tresor_linz/" target="_blank" rel="noreferrer">
             Tresor
           </a>
           , Linz, Austria
         </li>
         <li>
-          Feb 14, 2025:{" "}
+          Feb 14, 2026:{" "}
           <a href="https://www.lot.wien/" target="_blank" rel="noreferrer">
             Lot
           </a>
