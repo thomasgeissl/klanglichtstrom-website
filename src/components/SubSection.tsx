@@ -1,4 +1,4 @@
-import React from "react"
+import React, { type ReactNode } from "react"
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -14,7 +14,12 @@ const Container = styled.div`
   }
 `
 
-export default ({ title, children }) => {
+type SubSectionProps = {
+  title?: string
+  children?: ReactNode
+}
+
+export default function SubSection({ title, children }: SubSectionProps) {
   return (
     <Container id={title}>
       {title && <h2>{title}</h2>}

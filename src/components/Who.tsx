@@ -16,7 +16,7 @@ const Image = styled.img`
   margin-bottom: 128px;
 `
 
-export default () => {
+export default function Who() {
   return (
     <Section title={"Artists"}>
       <Image src="artists.jpg"></Image>
@@ -36,10 +36,10 @@ export default () => {
         .
       </p>
       <Grid container spacing={3}>
-        <Grid size={{xs:12, sm:6}}>
+        <Grid size={{ xs: 12, sm: 6 }}>
           <Ben></Ben>
         </Grid>
-        <Grid size={{xs:12, sm:6}}>
+        <Grid size={{ xs: 12, sm: 6 }}>
           <Thomas></Thomas>
         </Grid>
       </Grid>

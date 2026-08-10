@@ -1,6 +1,7 @@
 import React from "react"
 import VolumeOffIcon from "@mui/icons-material/VolumeOff"
 import styled from "styled-components"
+
 const Container = styled.div`
   position: absolute;
   top: 10px;
@@ -14,7 +15,12 @@ const Container = styled.div`
   }
 `
 
-export default ({ muted, clickHandler }) => {
+type UnmuteProps = {
+  muted: boolean
+  clickHandler: () => void
+}
+
+export default function Unmute({ muted, clickHandler }: UnmuteProps) {
   return (
     <Container>
       {muted && <VolumeOffIcon onClick={clickHandler}></VolumeOffIcon>}

@@ -6,7 +6,7 @@ const List = styled.ul`
   list-style-type: square;
 `
 
-export default () => {
+export default function When() {
   return (
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
@@ -31,7 +31,11 @@ export default () => {
         </li>
         <li>
           Feb 13, 2026:{" "}
-          <a href="https://www.instagram.com/tresor_linz/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/tresor_linz/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Tresor
           </a>
           , Linz, Austria

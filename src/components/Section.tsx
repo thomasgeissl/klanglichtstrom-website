@@ -1,4 +1,4 @@
-import React from "react"
+import React, { type ReactNode } from "react"
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -6,7 +6,12 @@ const Container = styled.div`
   margin-bottom: 196px;
 `
 
-export default ({ title, children }) => {
+type SectionProps = {
+  title?: string
+  children?: ReactNode
+}
+
+export default function Section({ title, children }: SectionProps) {
   return (
     <Container id={title}>
       {title && <h2>{title}</h2>}

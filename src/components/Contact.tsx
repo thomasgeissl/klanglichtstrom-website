@@ -1,7 +1,7 @@
 import React from "react"
 import Section from "./Section"
 
-export default () => {
+export default function Contact() {
   return (
     <Section title={"Contact"}>
       Please don't hesitate to contact us via email{" "}

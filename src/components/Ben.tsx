@@ -1,7 +1,7 @@
 import React from "react"
 import Section from "./SubSection"
 
-export default () => {
+export default function Ben() {
   return (
     <Section>
       <h3>Ben Bengler</h3>

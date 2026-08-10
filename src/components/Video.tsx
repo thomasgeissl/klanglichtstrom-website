@@ -17,11 +17,11 @@ const Wrapper = styled.div`
   }
 `
 
-export default () => {
+export default function Video() {
   const [muted, setMuted] = useState(true)
   const [ready, setReady] = useState(false)
   const [volume, setVolume] = useState(0)
-  const playerRef = useRef(null)
+  const playerRef = useRef<HTMLVideoElement | null>(null)
 
   return (
     <Section>
@@ -47,7 +47,7 @@ export default () => {
           muted={muted}
           width="100%"
           height="auto"
-          playsinline={true}
+          playsInline={true}
           onStart={() => {
             setReady(true)
           }}
@@ -61,7 +61,7 @@ export default () => {
               rel: 0,
               showinfo: 0,
               iv_load_policy: 3,
-            },
+            } as Record<string, unknown>,
           }}
         ></ReactPlayer>
       </Wrapper>

@@ -6,7 +6,7 @@ const Container = styled.div`
   margin-bottom: 64px;
 `
 
-export default () => {
+export default function Footer() {
   const year = new Date().getFullYear()
   return <Container>&#169; {year} - Bengler &amp; Geissl</Container>
 }
