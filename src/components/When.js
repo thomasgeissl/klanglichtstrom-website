@@ -11,17 +11,25 @@ export default () => {
     <Section title={"Dates"}>
       <h3>Upcoming</h3>
       <List>
-    <li>
-              April 30, 2026:{" "}
-        <a href="http://mucca.org/" target="_blank" rel="noreferrer">
-            Halle, Mucca
-          </a>
-          , Munich, Germany
+        <li>
+          September 11/12, 2026, 3pm–8pm: ROOM 0.301 — immersive installation
+          for this year’s SONIC SATURDAY / Ars Electronica at Bruckner
+          University, Linz, Austria
+          <br />
+          *SPECIAL LIVE PERFORMANCE* Friday, September 11 at 5pm — special
+          live set embedded into ROOM 0.301
         </li>
       </List>
       <h3>Past</h3>
       <List>
-      <li>
+        <li>
+          April 30, 2026:{" "}
+          <a href="http://mucca.org/" target="_blank" rel="noreferrer">
+            Halle, Mucca
+          </a>
+          , Munich, Germany
+        </li>
+        <li>
           Feb 13, 2026:{" "}
           <a href="https://www.instagram.com/tresor_linz/" target="_blank" rel="noreferrer">
             Tresor
